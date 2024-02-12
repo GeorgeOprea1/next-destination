@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCirclePlay } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -36,6 +37,21 @@ const Hero = () => {
               Excellent Reviews
             </span>
           </p>
+        </div>
+        <div className="flex  flex-col w-full gap-3 sm:flex-row">
+          <button
+            type="button"
+            className="flex justify-center items-center gap-3 rounded-full border-green-500 bg-green-500 px-8 py-5 text-white transition-all hover:bg-black"
+          >
+            Download App
+          </button>
+          <button
+            type="button"
+            className="flex justify-center items-center gap-3 rounded-full border-white bg-white px-8 py-3 "
+          >
+            <FaCirclePlay className=" text-green-500 " />
+            <span className="font-bold">How does it work?</span>
+          </button>
         </div>
       </div>
     </section>
