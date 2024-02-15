@@ -11,8 +11,6 @@ const Navbar = () => {
       <Link href="/">
         <h1 className="bg-gradient-to-r from-green-800 to-orange-500 bg-clip-text text-transparent text-3xl font-black">
           Next Destination{" "}
-          {/* here I need a logo image instead of the text
-           */}
         </h1>
       </Link>{" "}
       <ul className="hidden h-full gap-12 lg:flex">
