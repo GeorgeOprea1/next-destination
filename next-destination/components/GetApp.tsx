@@ -1,3 +1,6 @@
+import { FaApple } from "react-icons/fa";
+import { FaGooglePlay } from "react-icons/fa";
+
 const GetApp = () => {
   return (
     <section className="flex items-center justify-center w-full flex-col pb-[100px]">
@@ -9,6 +12,23 @@ const GetApp = () => {
           <p className="text-[16px] font-[400] text-gray-500">
             Available on iOS and Android
           </p>
+          <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
+            <button
+              type="button"
+              className="flex justify-center items-center gap-3 rounded-full bg-white px-8 py-5 text-green-500 font-[700] transition-all hover:bg-black"
+            >
+              <FaApple /> App Store
+            </button>
+            <button
+              type="button"
+              className="flex justify-center items-center gap-3 rounded-full border-2 border-white  font-[700] bg-transparent px-8 py-5 text-white transition-all hover:bg-black"
+            >
+              <FaGooglePlay /> Play Store
+            </button>
+          </div>
+        </div>
+        <div className="flex flex-1 items-center justify-end">
+          <img src="/phones.png" alt="phones" width={550} height={870} />
         </div>
       </div>
     </section>
