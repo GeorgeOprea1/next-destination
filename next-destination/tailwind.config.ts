@@ -9,11 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "pattern-1": "url('/pattern-bg.png')",
-        "bg-img-1": "url('/img-1.png')",
-        "bg-img-2": "url('/img-2.png')",
-        pattern: "url('/pattern.png')",
-        "feature-bg": "url('/feature-bg.png')",
+        "pattern-1": "url('/pattern-bg.avif')",
+        "bg-img-1": "url('/img-1.avif')",
+        "bg-img-2": "url('/img-2.avif')",
+        pattern: "url('/pattern.avif')",
+        "feature-bg": "url('/feature-bg.avif')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

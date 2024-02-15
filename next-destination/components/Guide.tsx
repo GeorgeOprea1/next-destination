@@ -23,7 +23,7 @@ const Guide = () => {
       </div>
       <div className="flex justify-center items-center mx-auto max-w-[1440px] relative w-full ">
         <img
-          src="/boat.png"
+          src="/boat.avif"
           alt="boat"
           width={1440}
           height={580}

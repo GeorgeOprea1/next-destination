@@ -10,7 +10,7 @@ const Features = () => {
       <div className="  mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <img
-            src="./phone.png"
+            src="./phone.avif"
             alt="phone"
             width={440}
             height={1000}
