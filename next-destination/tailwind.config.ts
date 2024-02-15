@@ -12,6 +12,7 @@ const config: Config = {
         "pattern-1": "url('/pattern-bg.png')",
         "bg-img-1": "url('/img-1.png')",
         "bg-img-2": "url('/img-2.png')",
+        pattern: "url('/pattern.png')",
         "feature-bg": "url('/feature-bg.png')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
