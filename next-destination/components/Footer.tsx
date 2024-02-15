@@ -66,6 +66,7 @@ const Footer = () => {
                   href="https://github.com/GeorgeOprea1/next-destination"
                   className="cursor-pointer"
                   target="_blank"
+                  aria-label="Learn more about this project"
                 >
                   <FaGithub />
                 </a>
